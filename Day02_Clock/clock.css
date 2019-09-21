@@ -1,0 +1,52 @@
+.clock-face
+{
+    margin: 250px auto;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 5px solid rgb(90, 57, 90);
+    background-color: rgba(209, 182, 228, 0.973);
+}
+
+.hand-container
+{
+    height: 100%;
+    position: relative;
+    top: 0px;
+}
+
+body{
+    background-image: linear-gradient(to left, #cc66cc, #9e74bd 60%); 
+}
+.hand
+{
+    position: absolute;
+    top: 0%;
+    transform-origin: 50% 100%;
+    border: 2px solid black;
+    margin-left: 10rem;
+}
+
+#sec
+{
+    margin-top: 10%;
+    height: 40%;
+    width: 1%;
+    background-color: rgb(223, 190, 101);
+}
+
+#min
+{
+    margin-top: 5%;
+    height: 45%;
+    width: 1.75%;
+    background-color: rgb(124, 64, 235);
+}
+
+#hr
+{
+    margin-top: 20%;
+    height: 30%;
+    width: 2.5%;
+    background-color: rgb(230, 106, 137);
+}
