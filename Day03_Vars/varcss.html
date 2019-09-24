@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Variables</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Raleway:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="varcss.css">
+</head>
+<body>
+    <h1 style="text-align: center">Update CSS Variables with <span class="color_base">JS</span></h1>
+    <div class="input" style="text-align: center">
+        <label for="spacing">Spacing: </label>
+        <input type="range" name="spacing" id="space" min="0" max="50" value="10" data-measure="px">
+        <label for="blur">Blur: </label>
+        <input type="range" name="blur" id="blur" min="0" max="15" value="5" data-measure="px">
+        <label for="color">Base Color: </label>
+        <input type="color" name="color" id="color" value="#95f370">
+        <div class="content">
+            <img src="./srcimg.jpeg" alt="Dest">
+        </div>
+    </div>
+    <script src="varcss.js"></script>
+</body>
+</html>

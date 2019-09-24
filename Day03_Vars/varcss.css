@@ -1,0 +1,35 @@
+:root{
+    --color: #95f370;
+    --blur: 0.25rem;
+    --spacing: 10px;
+}
+
+body{
+    background-color: rgb(32, 72, 104);
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+label{
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    margin: 5px auto;
+    width: 80%;
+}
+
+img{
+    margin: 50px auto;
+    width: 80%;
+    padding: var(--spacing);
+    background-color: var(--color);
+    filter: blur(var(--blur));
+}
+
+.color_base{
+    color: var(--color);
+    font: bolder;
+    font-size: 40px;
+}
